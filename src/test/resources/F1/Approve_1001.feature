@@ -5,8 +5,8 @@ Feature: Approve
 @TSCID1001
 	Scenario: numberStatus
 		Given numberOdd
-		When one
-		Then one
+		When two
+		Then two
 
 @TSCID1002
 	Scenario: Approve2222
