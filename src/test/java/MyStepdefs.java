@@ -37,6 +37,12 @@ public class MyStepdefs {
         //throw new cucumber.api.PendingException();
     }
 
+    @Given("numberOdd{int}")
+    public void numberodd(Integer int1) {
+        // Write code here that turns the phrase above into concrete actions
+        //throw new cucumber.api.PendingException();
+    }
+
     @Given("numberEven")
     public void numberEven() {
         // Write code here that turns the phrase above into concrete actions
@@ -44,13 +50,18 @@ public class MyStepdefs {
     }
 
     @Then("two")
+    public void twoThen() {
+        // Write code here that turns the phrase above into concrete actions
+        //throw new cucumber.api.PendingException();
+    }
+    @Then("one")
     public void oneThen() {
         // Write code here that turns the phrase above into concrete actions
         //throw new cucumber.api.PendingException();
     }
 
     @Then("three")
-    public void twoThen() {
+    public void threeThen() {
         // Write code here that turns the phrase above into concrete actions
         //throw new cucumber.api.PendingException();
     }

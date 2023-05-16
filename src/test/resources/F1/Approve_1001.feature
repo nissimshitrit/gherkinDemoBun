@@ -1,5 +1,5 @@
 #Auto generated Octane revision tag
-@BSPID1001REV0.0.1
+@BSPID1001REV0.2.0
 #Auto generated Octane revision tag
 Feature: Approve
 @TSCID1001
@@ -26,3 +26,9 @@ Feature: Approve
 		| 4      | 8      |
 		| 2      | 2      |
 		| 3      | 6      |
+
+@TSCID1004
+	Scenario: numberStatus2
+		Given numberOdd2
+		When one
+		Then one
