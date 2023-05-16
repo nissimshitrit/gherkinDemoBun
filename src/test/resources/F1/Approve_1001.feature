@@ -1,20 +1,20 @@
 #Auto generated Octane revision tag
-@BSPID1001REV0.2.0
+
 #Auto generated Octane revision tag
 Feature: Approve
-@TSCID1001
+
 	Scenario: numberStatus
 		Given numberOdd
 		When two
 		Then two
 
-@TSCID1002
+
 	Scenario: Approve2222
 		Given numberEven
 		When three
 		Then three
 
-@TSCID1003
+
 	Scenario Outline: Online
 		Given all
 		When  <param2>
@@ -26,9 +26,3 @@ Feature: Approve
 		| 4      | 8      |
 		| 2      | 2      |
 		| 3      | 6      |
-
-@TSCID1004
-	Scenario: numberStatus2
-		Given numberOdd2
-		When one
-		Then one
