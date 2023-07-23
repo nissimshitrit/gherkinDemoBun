@@ -21,5 +21,5 @@ Feature: Approve
 		| param1 | param2 |
 		| 2      | 4      |
 		| 4      | 8      |
-		| 3      | 6      |
+		| 3      | 7      |
 		| 2      | 2      |
