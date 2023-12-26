@@ -64,6 +64,12 @@ public class MyStepdefs {
         // Write code here that turns the phrase above into concrete actions
         //throw new cucumber.api.PendingException();
     }
+
+     @When("two")
+    public void twoWhen() {
+        // Write code here that turns the phrase above into concrete actions
+        //throw new cucumber.api.PendingException();
+    }
     @Given("^my name (.*)$")
     public void myName(String str) {
         // Write code here that turns the phrase above into concrete actions
