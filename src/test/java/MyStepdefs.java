@@ -134,11 +134,11 @@ public class MyStepdefs {
 //        throw new cucumber.api.PendingException();
 //    }
 
-    @Entón("test")
-    public void test() {
-        // Write code here that turns the phrase above into concrete actions
-//        throw new cucumber.api.PendingException();
-    }
+//    @Entón("test")
+//    public void test() {
+//        // Write code here that turns the phrase above into concrete actions
+////        throw new cucumber.api.PendingException();
+//    }
 
 
     @Given("dsf")
