@@ -6,8 +6,6 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.cucumber.java.gl.Cando;
 import io.cucumber.java.gl.Dado;
-import io.cucumber.java.gl.Entón;
-//import io.cucumber.java.gl.Entón;
 
 import static org.junit.Assert.assertEquals;
 public class MyStepdefs {
