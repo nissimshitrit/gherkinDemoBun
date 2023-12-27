@@ -1,12 +1,12 @@
 #Auto generated Octane revision tag
-@TID2193017REV0.2.0
+@TID2193017REV0.3.0
 Feature: apscen21
 	Scenario: app11 new name
 		Given dsf
 		When df1
 		Then df2
 
-	Scenario Outline: sda11
+	Scenario Outline: sda11 new name
 		Given <param1>
 		When  <param2>
 		Then sdf
