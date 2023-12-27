@@ -5,7 +5,7 @@ Feature: Approve
 		When one
 		Then one
   
-  	Scenario: numberStatus2
+  	Scenario: numberStatus2 new name
 		Given numberOdd
 		When three
 		Then one
