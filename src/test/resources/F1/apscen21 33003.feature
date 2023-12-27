@@ -1,3 +1,5 @@
+#Auto generated Octane revision tag
+@TID2193017REV0.2.0
 Feature: apscen21
 	Scenario: app11 new name
 		Given dsf
