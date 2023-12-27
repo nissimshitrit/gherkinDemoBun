@@ -6,7 +6,7 @@ Feature: apscen21
 		When df1
 		Then df2
 
-	Scenario Outline: sda11 new name
+	Scenario Outline: sda11
 		Given <param1>
 		When  <param2>
 		Then sdf
