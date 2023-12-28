@@ -15,7 +15,7 @@ Feature: Approve
 		Then one
 
 @TSCID2197003
-	Scenario: Approve2222  		
+	Scenario: Approve2222
 		Given numberEven
 		When three
 		Then three
@@ -35,3 +35,7 @@ Feature: Approve
 		| 6      | 7      |
 		| 7      | 6      |
 		| 8      | 6      |
+Scenario:
+		Given numberEven
+		When one
+		Then one
