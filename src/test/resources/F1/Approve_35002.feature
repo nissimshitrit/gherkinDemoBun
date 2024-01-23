@@ -4,19 +4,31 @@ Feature: Approve
 		Given numberOdd
 		When one
 		Then one
+<<<<<<< .mine
 
+=======
+  
+>>>>>>> .theirs
   	Scenario: numberStatus2 new name
 		Given numberOdd
 		When three
 		Then one
 
+<<<<<<< .mine
 
+=======
+
+>>>>>>> .theirs
 	Scenario: Approve2222
 		Given numberEven
 		When three
 		Then three
 
+<<<<<<< .mine
 
+=======
+
+>>>>>>> .theirs
 	Scenario Outline: Online
 		Given all
 		When  <param2>
