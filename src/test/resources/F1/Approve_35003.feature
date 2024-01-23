@@ -1,4 +1,4 @@
-Feature: Approve
+Feature: Approve2
 	Scenario: numberStatus
 		Given numberOdd
 		When one
