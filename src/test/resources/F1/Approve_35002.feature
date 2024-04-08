@@ -1,5 +1,5 @@
 #Auto generated Octane revision tag
-@BSPID1001REV0.3.0
+@BSPID1001REV0.4.0
 @ADD_NEW_TAG
 Feature: Feature: Approve
 
@@ -30,8 +30,3 @@ Feature: Feature: Approve
 		| 6      | 7      |
 		| 7      | 6      |
 		| 8      | 6      |
-@TSCID1004
-	Scenario:
-		Given numberEven
-		When one
-		Then one
