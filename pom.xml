@@ -34,8 +34,23 @@
             <artifactId>junit</artifactId>
             <version>4.13.2</version>
         </dependency>
+<!--        <dependency>-->
+<!--            <groupId>com.microfocus.adm.almoctane.bdd</groupId>-->
+<!--            <artifactId>bdd2octane</artifactId>-->
+<!--            <version>1.1.8</version>-->
+<!--        </dependency>-->
     </dependencies>
-
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>com.microfocus.adm.almoctane.bdd</groupId>
+                    <artifactId>bdd2octane</artifactId>
+                    <version>1.1.8</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
 
 
 </project>
