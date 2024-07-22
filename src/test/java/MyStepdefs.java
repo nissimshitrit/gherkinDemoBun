@@ -38,7 +38,7 @@ public class MyStepdefs {
         if( (arg0 % 2)==0) {
             assertEquals(1, 1);
         } else {
-            assertEquals(1, 2);
+            assertEquals(3, 4);
         }
     }
 
