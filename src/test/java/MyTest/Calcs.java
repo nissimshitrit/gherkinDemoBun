@@ -1,3 +1,5 @@
+package MyTest;
+
 public class Calcs {
 
     public static int sum(int a, int b) {

@@ -1,3 +1,5 @@
+package MyTest;
+
 import io.cucumber.java.de.Angenommen;
 import io.cucumber.java.de.Dann;
 import io.cucumber.java.de.Wenn;
@@ -187,13 +189,13 @@ public class MyStepdefs {
     @When("df {int}")
     public void df(Integer int1) {
         // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+        //throw new io.cucumber.java.PendingException();
     }
 
     @Given("d b")
     public void d_b() {
         // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+        //throw new io.cucumber.java.PendingException();
     }
 
 
