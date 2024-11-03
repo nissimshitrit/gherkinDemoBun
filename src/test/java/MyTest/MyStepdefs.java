@@ -62,14 +62,14 @@ public class MyStepdefs {
         //throw new cucumber.api.PendingException();
     }
 
-//    @Then("three")
-//    public void twoThen() {
-//        // Write code here that turns the phrase above into concrete actions
-//        //throw new cucumber.api.PendingException();
-//    }
-
-     @When("two")
+    @When("two")
     public void twoWhen() {
+        // Write code here that turns the phrase above into concrete actions
+        //throw new cucumber.api.PendingException();
+    }
+
+    @Then("three")
+    public void oneThree() {
         // Write code here that turns the phrase above into concrete actions
         //throw new cucumber.api.PendingException();
     }
@@ -87,61 +87,6 @@ public class MyStepdefs {
     public void willPop(Integer int1){
 
     }
-
-    @Angenommen("sdsd")
-    public void sdsd() {
-        // Write code here that turns the phrase above into concrete actions
-        //throw new cucumber.api.PendingException();
-    }
-
-    @Wenn("ds")
-    public void ds() {
-        // Write code here that turns the phrase above into concrete actions
-        //throw new cucumber.api.PendingException();
-    }
-
-    @Dann("sdfsdf")
-    public void sdfsdf() {
-        // Write code here that turns the phrase above into concrete actions
-        //throw new cucumber.api.PendingException();
-    }
-
-    @Wenn("sdg")
-    public void sdg() {
-        // Write code here that turns the phrase above into concrete actions
-        //throw new cucumber.api.PendingException();
-    }
-
-    @Dann("sddf")
-    public void sddf() {
-        // Write code here that turns the phrase above into concrete actions
-        //throw new cucumber.api.PendingException();
-    }
-
-    @Dado("tr")
-    public void tr() {
-        // Write code here that turns the phrase above into concrete actions
-        //throw new cucumber.api.PendingException();
-    }
-
-    @Cando("ty")
-    public void ty() {
-        // Write code here that turns the phrase above into concrete actions
-        //throw new cucumber.api.PendingException();
-    }
-
-//    @Entón("ty")
-//    public void ty2() {
-//        // Write code here that turns the phrase above into concrete actions
-//        throw new cucumber.api.PendingException();
-//    }
-
-//    @Entón("test")
-//    public void test() {
-//        // Write code here that turns the phrase above into concrete actions
-////        throw new cucumber.api.PendingException();
-//    }
-
 
     @Given("dsf")
     public void dsf() {
@@ -188,6 +133,12 @@ public class MyStepdefs {
 
     @When("df {int}")
     public void df(Integer int1) {
+        // Write code here that turns the phrase above into concrete actions
+        //throw new io.cucumber.java.PendingException();
+    }
+
+    @Given("d a")
+    public void d_a() {
         // Write code here that turns the phrase above into concrete actions
         //throw new io.cucumber.java.PendingException();
     }

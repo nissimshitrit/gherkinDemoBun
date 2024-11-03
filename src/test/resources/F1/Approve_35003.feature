@@ -10,6 +10,7 @@ Feature: Number 2
 		When three
 		Then three
 
+    @Manual
 	Scenario Outline: Online
 		Given all
 		When  <param2>
