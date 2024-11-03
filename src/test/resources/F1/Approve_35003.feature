@@ -4,6 +4,7 @@ Feature: Number 2
 		When one
 		Then one
 
+    @Manual
 	Scenario: Approve2222
 		Given numberEven
 		When three
