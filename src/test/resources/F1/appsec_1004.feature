@@ -5,7 +5,7 @@ Feature: apscen21
 		Then df
 
 
-	Scenario Outline: sda <param1>
+	Scenario Outline: sda outline
 		Given d <param1>
 		When  df <param2>
 		Then sdf
