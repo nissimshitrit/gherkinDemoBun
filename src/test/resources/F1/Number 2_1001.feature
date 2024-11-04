@@ -1,5 +1,5 @@
 #Auto generated Octane revision tag
-@BSPID1001REV0.0.1
+@BSPID1001REV0.2.0
 Feature: Number 2
 @TSCID1045
 Scenario: numberStatus
@@ -25,3 +25,9 @@ Examples:
     | 8      | 8      |
     | 1      | 2      |
     | 3      | 6      |
+@Manual
+@TSCID1048
+Scenario: new scenario
+    Given new given
+    When new when
+    Then new then
