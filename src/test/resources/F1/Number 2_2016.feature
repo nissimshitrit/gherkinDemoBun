@@ -25,4 +25,9 @@ Feature: Number 2
 		| 8      | 8      |
 		| 1      | 2      |
 		| 3      | 6      |
+@Manual
+    Scenario: new scenario
+        Given new given
+        When new when
+        Then new Then
 
