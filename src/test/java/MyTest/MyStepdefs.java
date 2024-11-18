@@ -203,5 +203,23 @@ public class MyStepdefs {
         //throw new cucumber.api.PendingException();
     }
 
+    @Given("User is on the login screen")
+    public void User_on_the_login_screen() {
+        // Write code here that turns the phrase above into concrete actions
+        //throw new cucumber.api.PendingException();
+    }
+
+    @When("User inputs the credentials")
+    public void user_inputs_the_credentials() {
+        // Write code here that turns the phrase above into concrete actions
+//        throw new io.cucumber.java.PendingException();
+    }
+
+    @Then("System should let him login into it")
+    public void system_should_let_him_login_into_it() {
+        // Write code here that turns the phrase above into concrete actions
+//        throw new io.cucumber.java.PendingException();
+    }
+
 
 }
