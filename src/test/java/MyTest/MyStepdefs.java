@@ -197,6 +197,11 @@ public class MyStepdefs {
         // Write code here that turns the phrase above into concrete actions
         //throw new io.cucumber.java.PendingException();
     }
+    @Given("d a")
+    public void d_a() {
+        // Write code here that turns the phrase above into concrete actions
+        //throw new cucumber.api.PendingException();
+    }
 
 
 }
