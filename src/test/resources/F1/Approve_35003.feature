@@ -5,7 +5,7 @@ Feature: Number 2
 		Then one
 
     Rule: r1
-        background:
+        Background:
             Given one
             When one
             Then one
