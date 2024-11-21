@@ -4,7 +4,13 @@ Feature: Number 2
 		When one
 		Then one
 
-	Scenario: Approve2222
+    Rule: r1
+        background:
+            Given one
+            When one
+            Then one
+
+	Example: Approve2222
 		Given numberEven
 		When three
 		Then three
