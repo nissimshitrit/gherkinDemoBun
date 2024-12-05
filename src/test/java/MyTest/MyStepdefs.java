@@ -217,7 +217,7 @@ public class MyStepdefs {
 
     @Then("System should let him login into it")
     public void system_should_let_him_login_into_it() {
-        // Write code here that turns the phrase above into concrete actions
+//        Write code here that turns the phrase above into concrete actions
 //        throw new io.cucumber.java.PendingException();
     }
 
