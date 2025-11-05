@@ -7,7 +7,7 @@ Feature: bdd12
 		When pokji[p
 		Then poikpi
 
-@TSCID2702017
+@TSCID2702016
 	Scenario: bdd2
 		Given ;j
 		When lk;l
