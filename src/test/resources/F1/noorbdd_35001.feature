@@ -9,6 +9,6 @@ Feature: bdd12
 
 @TSCID2702017
 	Scenario: bdd2
-		Given ;j
+		Given ;j b
 		When lk;l
 		Then j;
