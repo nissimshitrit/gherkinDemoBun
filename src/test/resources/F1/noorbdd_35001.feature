@@ -10,5 +10,5 @@ Feature: bdd12
 @TSCID2702017
 	Scenario: bdd2
 		Given ;j b
-		When lk;l
+		When lk;l f
 		Then j;
