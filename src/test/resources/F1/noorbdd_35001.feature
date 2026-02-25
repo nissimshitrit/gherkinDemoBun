@@ -1,14 +1,31 @@
 #Auto generated Octane revision tag
-@BSPID35001REV0.2.0
-Feature: bdd12
-@TSCID2702016
-	Scenario:
-		Given pokp[
-		When pokji[p
-		Then poikpi
+@BSPID1001REV0.1.0
+@big @important
+Feature: Shopping cart
+		Customers should be able to add items to the cart before checking out
 
-@TSCID2702017
-	Scenario: bdd2
-		Given ;j b
-		When lk;l f
-		Then j;
+	Background:
+		Given shopping site is available
+
+@TSCID1001
+	Scenario: Customer adds item to cart
+		Givend a visitor on the shopping site
+		When he selects and item
+		And he adds the item to the cart
+		Then the item is added to the cart
+		And the quantity is one
+
+@TSCID1002
+	Scenario Outline: Adding multiple items to cart
+		Given a visitor on the shopping site
+		When hed selects an item
+		And he adds the item to the cart
+		And the cart includes <existing> items of the same type
+		Then the item is added to the cart
+		And the quantity is updated to <new_count>
+
+	Examples:
+		| existing | new_count |
+		| 0 | 1 |
+		| 1 | 2 |
+		| 10 | 11 |
