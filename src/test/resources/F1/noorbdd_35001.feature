@@ -18,10 +18,10 @@ Feature: Shopping cart
 @TSCID1002
 	Scenario Outline: Adding multiple items to cart
 		Given a visitor on the shopping site
-		When hed selects an item
+		When hed selec ts an item
 		And he adds the item to the cart
 		And the cart includes <existing> items of the same type
-		Then the item is added to the cart
+		Then the it em is added to the cart
 		And the quantity is updated to <new_count>
 
 	Examples:
