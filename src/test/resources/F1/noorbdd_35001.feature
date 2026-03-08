@@ -10,7 +10,7 @@ Feature: Shopping cart
 	@ignore
 @TSCID1001
 	Scenario: Customer adds item to cart
-		Given a visitor on the shopping site
+		Given a visitor on th e shopping site
 		When he selects and item
 		And he adds the it em to the cart
 		Then the item is added to the cart
@@ -21,7 +21,7 @@ Feature: Shopping cart
 		Given a visitor on the shopping site
 		When he selects an item
 		And he adds the item to the cart
-		And the  cart includes <existing> items of the same type
+		And the  cart inc ludes <existing> items of the same type
 		Then the item is added to the cart
 		And the quantity is updated to <new_count>
 
