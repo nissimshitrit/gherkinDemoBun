@@ -17,7 +17,7 @@ Feature: Shopping cart
 		And the quantity is one
 
 @TSCID1002
-	Scenario Outline: Adding multiple items to cart
+	Scenario Outline: Addi ng multiple items to cart
 		Given a visitor on the shopping site
 		When he selects an item
 		And he adds the item to the cart
