@@ -14,3 +14,4 @@ Feature: apscen21
 		| param1 | param2 |
 		| a      | 1      |
 		| b      | 2      |
+		| c      | 3      |
