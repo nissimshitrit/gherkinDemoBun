@@ -1,5 +1,5 @@
 #Auto generated Octane revision tag
-@BSPID1001REV0.1.0
+@BSPID1004REV0.2.0
 @big @important
 Feature: Shopping cart
 		Customers should be able to add items to the cart before checking out
@@ -7,18 +7,18 @@ Feature: Shopping cart
 	Background:
 		Given shopping site is available
 
-@TSCID1001
+@TSCID1007
 	Scenario: Customer adds item to cart
 		Given a visitor on the shopping site
 		When he selects and item
-		And he adds  the item to the cart
-		Then the item  is added to the cart
+		And he adds the item to the cart
+		Then the item is added to the cart
 		And the quantity is one
 
-@TSCID1002
+@TSCID1008
 	Scenario Outline: Adding multiple items to cart
 		Given a visitor on the shopping site
-		When he se lects an item
+		When he selects an item
 		And he adds the item to the cart
 		And the cart includes <existing> items of the same type
 		Then the item is added to the cart
