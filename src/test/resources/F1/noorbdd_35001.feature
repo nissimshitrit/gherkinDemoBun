@@ -10,15 +10,15 @@ Feature: Shopping cart
 @TSCID1007
 	Scenario: Customer adds item to cart
 		Given a visitor on the shopping site
-		Whe n he selects and item
+		When he selects and item
 		And he adds the item to the cart
-		Then the item is added to the cart
+		Then the item is adde d to the cart
 		And the quantity is one
 
 @TSCID1008
 	Scenario Outline: Adding multiple items to cart
 		Given a visitor on the shopping site
-		When  he selects an item
+		When he selects an item
 		And he adds the item to the cart
 		And the cart includes <existing> items of the same type
 		Then the item is added to the cart
