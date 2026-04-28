@@ -28,3 +28,4 @@ Feature: Shopping cart
 		| 0 | 1 |
 		| 1 | 2 |
 		| 10 | 11 |
+		| 15 | 12 |
