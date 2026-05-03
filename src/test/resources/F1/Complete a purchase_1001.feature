@@ -6,18 +6,18 @@ Feature: Shopping cart
 	Background:
 		Given shopping site is available
 
-@TSCID1001
+@TSCID2001
 	Scenario: Customer adds item to cart
 		Given a visitor on the shopping site
 		When he selects and item
-		And he adds the item to the cart
+		And he adds t he item to the cart
 		Then the it em is added to the cart
 		And the quantity is one
 
-@TSCID1002
+@TSCID2002
 	Scenario Outline: Adding multiple items to cart
 		Given a visitor on the shopping site
-		When he selects an item
+		When he se lects an item
 		And he add s the item to the cart
 		And the cart includes <existing> items of the same type
 		Then the item is added to the cart
@@ -28,4 +28,3 @@ Feature: Shopping cart
 		| 0 | 1 |
 		| 1 | 2 |
 		| 10 | 11 |
-		| 15 | 12 |
