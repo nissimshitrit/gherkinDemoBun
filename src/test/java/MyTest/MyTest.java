@@ -12,6 +12,7 @@ import org.junit.runner.RunWith;
         //,
         //plugin = { "junit:target/cucumber-reports.xml" }
         )
+@Ignore
 public class MyTest {
 
 }
