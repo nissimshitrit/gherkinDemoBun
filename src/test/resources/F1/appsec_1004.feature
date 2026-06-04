@@ -4,7 +4,7 @@ Feature: apscen21
 		When df
 		Then df
 
-
+    @skip
 	Scenario Outline: sda <param1>
 		Given d <param1>
 		When  df <param2>
