@@ -8,19 +8,19 @@ Feature: Shopping cart
 		Given shopping site is available
 
 	@ignore
-@TSCID1001
-	Scenario: Cus tomer adds item to cart
+@TSCID1003
+	Scenario: Customer adds item to cart
 		Given a visitor on the shopping site
-		When he selects and item
+		When he selects an d item
 		And he adds the item to the cart
-		Then the item is added to the cart 
+		Then the item is added to the cart
 		And the quantity is one
 
-@TSCID1002
+@TSCID1004
 	Scenario Outline: Adding multiple items to cart
 		Given a visitor on the shopping site
-		When h e selects an item
-		And he adds the item to the cart
+		When he selects an item
+		And he adds t he item to the cart
 		And the cart includes <existing> items of the same type
 		Then the item is added to the cart
 		And the quantity is updated to <new_count>
