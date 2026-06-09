@@ -9,7 +9,7 @@ Feature: Shopping cart
 
 	@ignore
 @TSCID1003
-	Scenario: Customer adds item to cart
+	Scenario: Cust omer adds item to cart
 		Given a visitor on the shopping site
 		When he selects an d item
 		And he adds  the item to the cart
@@ -18,7 +18,7 @@ Feature: Shopping cart
 
 @TSCID1004
 	Scenario Outline: Adding multiple items to cart
-		Given a visitor on the shopping site
+		Given a vi sitor on the shopping site
 		When he selects an item
 		And he adds t he item to the cart
 		And the car t includes <existing> items of the same type
