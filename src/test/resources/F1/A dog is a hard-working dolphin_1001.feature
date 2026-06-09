@@ -12,7 +12,7 @@ Feature: Shopping cart
 	Scenario: Customer adds item to cart
 		Given a visitor on the shopping site
 		When he selects an d item
-		And he adds the item to the cart
+		And he adds  the item to the cart
 		Then the item is added to the cart
 		And the quantity is one
 
@@ -21,7 +21,7 @@ Feature: Shopping cart
 		Given a visitor on the shopping site
 		When he selects an item
 		And he adds t he item to the cart
-		And the cart includes <existing> items of the same type
+		And the car t includes <existing> items of the same type
 		Then the item is added to the cart
 		And the quantity is updated to <new_count>
 
