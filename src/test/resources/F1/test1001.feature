@@ -3,7 +3,7 @@
 Feature: BasicCalculator
 
 @TSCID1001
-  Scenario: Simple add operation
+  Scenario: S imple add operation
     When I "add" 1 and 1
     Then the result is 2
 
