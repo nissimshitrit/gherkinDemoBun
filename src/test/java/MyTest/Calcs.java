@@ -19,7 +19,7 @@ public class Calcs {
     }
 
     public static boolean alwaysTrue() {
-        return false;
+        return true;
 
     }
 }
