@@ -118,6 +118,7 @@ public class MyStepdefs {
     public void sddf() {
         // Write code here that turns the phrase above into concrete actions
         //throw new cucumber.api.PendingException();
+        assertEquals(2, 1);
     }
 
     @Dado("tr")
@@ -223,5 +224,60 @@ public class MyStepdefs {
 //        throw new io.cucumber.java.PendingException();
     }
 
+    @Then("check_AufMaske {string}")
+    public void check_auf_maske(String string) {
+        // Write code here that turns the phrase above into concrete actions
+        //throw new io.cucumber.java.PendingException();
+    }
+    @Then("navigiere_zurueckBisHauptmaske")
+    public void navigiere_zurueck_bis_hauptmaske() {
+        // Write code here that turns the phrase above into concrete actions
+        //throw new io.cucumber.java.PendingException();
+    }
 
+    @Given("Benutzer ist angemeldet")
+    public void benutzer_ist_angemeldet() {
+        // Write code here that turns the phrase above into concrete actions
+//        throw new io.cucumber.java.PendingException();
+    }
+    @Given("lesen_Heute")
+    public void lesen_heute() {
+        // Write code here that turns the phrase above into concrete actions
+//        throw new io.cucumber.java.PendingException();
+    }
+    @Given("do_BaseStateMitAnmeldung {string} {string}")
+    public void do_base_state_mit_anmeldung(String string, String string2) {
+        // Write code here that turns the phrase above into concrete actions
+//        throw new io.cucumber.java.PendingException();
+    }
+    @Given("Initiierung Ummeldung Betrieb")
+    public void initiierung_ummeldung_betrieb() {
+        // Write code here that turns the phrase above into concrete actions
+//        throw new io.cucumber.java.PendingException();
+    }
+    @Given("Suche Betrieb Felder füllen und suchen {string} {string} {string} {string} {string} {string} {string}")
+    public void suche_betrieb_felder_füllen_und_suchen(String string, String string2, String string3, String string4, String string5, String string6, String string7) {
+        // Write code here that turns the phrase above into concrete actions
+//        throw new io.cucumber.java.PendingException();
+    }
+    @Given("fuelle_Textfeld {string} {string} {string} {string} {string}")
+    public void fuelle_textfeld(String string, String string2, String string3, String string4, String string5) {
+        // Write code here that turns the phrase above into concrete actions
+//        throw new io.cucumber.java.PendingException();
+    }
+    @Given("fuelle_Textfeld {string} {string} {string} {string}")
+    public void fuelle_textfeld(String string, String string2, String string3, String string4) {
+        // Write code here that turns the phrase above into concrete actions
+//        throw new io.cucumber.java.PendingException();
+    }
+    @Given("klicke_Checkbox {string} {string} {string}")
+    public void klicke_checkbox(String string, String string2, String string3) {
+        // Write code here that turns the phrase above into concrete actions
+//        throw new io.cucumber.java.PendingException();
+    }
+    @Given("klicke_Button {string} {string} {string} {string}")
+    public void klicke_button(String string, String string2, String string3, String string4) {
+        // Write code here that turns the phrase above into concrete actions
+//        throw new io.cucumber.java.PendingException();
+    }
 }
