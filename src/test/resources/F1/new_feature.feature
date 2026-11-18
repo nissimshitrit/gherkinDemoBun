@@ -5,3 +5,7 @@ Feature: Application Login
 	Given User is on the login screen
 	When User inputs the credentials
 	Then System should let him login into it
+
+  Scenario: Login screen is displayed
+	Given User is on the login screen
+	Then Login screen should be displayed

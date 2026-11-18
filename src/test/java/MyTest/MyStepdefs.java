@@ -10,9 +10,11 @@ import io.cucumber.java.gl.Cando;
 import io.cucumber.java.gl.Dado;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 public class MyStepdefs {
 
+    private boolean loginScreenDisplayed;
 
     @Given("all")
     public void all() {
@@ -208,8 +210,12 @@ public class MyStepdefs {
 
     @Given("User is on the login screen")
     public void User_on_the_login_screen() {
-        // Write code here that turns the phrase above into concrete actions
-        //throw new cucumber.api.PendingException();
+        loginScreenDisplayed = true;
+    }
+
+    @Then("Login screen should be displayed")
+    public void login_screen_should_be_displayed() {
+        assertTrue(loginScreenDisplayed);
     }
 
     @When("User inputs the credentials")
