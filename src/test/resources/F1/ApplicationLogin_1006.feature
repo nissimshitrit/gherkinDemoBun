@@ -1,4 +1,3 @@
-#Auto generated Octane revision tag
 Feature: ApplicationLogin
   I want to use Cucumber for automation testing
 

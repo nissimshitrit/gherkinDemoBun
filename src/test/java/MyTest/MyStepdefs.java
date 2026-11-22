@@ -213,8 +213,18 @@ public class MyStepdefs {
         loginScreenDisplayed = true;
     }
 
+    @Given("User is on the login screen again")
+    public void User_on_the_login_screen_again() {
+        loginScreenDisplayed = true;
+    }
+
     @Then("Login screen should be displayed")
     public void login_screen_should_be_displayed() {
+        assertTrue(loginScreenDisplayed);
+    }
+
+    @Then("Login screen should be displayed again")
+    public void login_screen_should_be_displayed_again() {
         assertTrue(loginScreenDisplayed);
     }
 
@@ -226,6 +236,12 @@ public class MyStepdefs {
 
     @Then("System should let him login into it")
     public void system_should_let_him_login_into_it() {
+//        Write code here that turns the phrase above into concrete actions
+//        throw new io.cucumber.java.PendingException();
+    }
+
+    @Then("System should let him login into it again")
+    public void system_should_let_him_login_into_it_again() {
 //        Write code here that turns the phrase above into concrete actions
 //        throw new io.cucumber.java.PendingException();
     }
