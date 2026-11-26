@@ -11,5 +11,5 @@ Feature: Application Login 2
 
   Scenario: Login screen is displayed
 	Given User is on the login screen
-	When df
+	When df1
 	Then Login screen should be displayed
