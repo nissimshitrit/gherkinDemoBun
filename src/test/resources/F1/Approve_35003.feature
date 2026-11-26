@@ -23,7 +23,7 @@ Feature: Number 2
 	Examples:
 		| param1 | param2 |
 		| 2      | 4      |
-		| 4      | 8      |
+		| 5      | 8      |
 		| 3      | 6      |
 		| 6      | 8      |
 		| 3      | 9      |
